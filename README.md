@@ -18,7 +18,11 @@
 
 	安裝教學可參考 http://www.dotblogs.com.tw/michael80321/archive/2014/12/15/147656.aspx
 
-4. 在R Studio中執行`Taiwan_VoteMap.R`
+4. 修改`Taiwan_VoteMap.R`
+
+	在第一行加上`setwd("path_to_your_source")`，例如`setwd("d:/Project/Map")`
+
+5. 在R Studio中執行`Taiwan_VoteMap.R`
 
 	* 看一下訊息，可以知道那些library需要安裝
 	* 如果library有安裝完整，應該會看到下列訊息
@@ -30,7 +34,7 @@
 	```
 	* 這時輸入1讀取2014縣市長選舉資料
 
-5. 執行`map$ggplot`來產生圖形
+6. 執行`map$ggplot`來產生圖形
 
 	* `g <- map$ggplot(1, COLOR)`
 		產生縣市等級的地圖，著色資料來自COLOR

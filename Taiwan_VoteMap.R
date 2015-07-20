@@ -17,8 +17,6 @@
 #   詳細的參數說明請參考 parse_mapdata.R
 #
 
-setwd(dirname(sys.frame(1)$ofile))
-
 major_2014 <- list(name="2014縣市長", enable_level=c(T,T,T), dir=c("Taiwan_voteData/2014年地方公職人員選舉/直轄市市長", "Taiwan_voteData/2014年地方公職人員選舉/縣市市長"))
 councillor_2014 <- list(name="2014縣市議員", enable_level=c(F,T,T), dir=c("Taiwan_voteData/2014年地方公職人員選舉/直轄市區域議員", "Taiwan_voteData/2014年地方公職人員選舉/縣市區域議員"))
 village_2014 <- list(name="2014村里長", enable_level=c(F,F,T), dir=c("Taiwan_voteData/2014年地方公職人員選舉/直轄市村里長", "Taiwan_voteData/2014年地方公職人員選舉/縣市村里長"))
